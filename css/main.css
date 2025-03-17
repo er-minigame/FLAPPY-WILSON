@@ -46,6 +46,7 @@ canvas {
 
 #unity-loading-bar {
   position: absolute;
+  width: 80%;
   left: 50%;
   top: 90%;
   transform: translate(-50%, -50%);
@@ -53,7 +54,6 @@ canvas {
 }
 
 #unity-progress-bar-empty {
-  width: 1200px;
   height: 60px;
   border-radius: 30px;
   background-color: black;
@@ -67,4 +67,10 @@ canvas {
   margin-left: 10px;
   border-radius: 20px;
   background-color: rgb(173, 0, 0);
+}
+
+@media (max-width: 1199px) {
+  #background-image {
+    background-size: contain;
+  }
 }
