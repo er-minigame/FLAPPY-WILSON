@@ -50,6 +50,7 @@
     <type fullname="TitleUI" preserve="all" />
     <type fullname="UserSettingPopup" preserve="all" />
     <type fullname="VolumeSettingUI" preserve="all" />
+    <type fullname="WebLinkButton" preserve="all" />
     <type fullname="WilsonActor" preserve="all" />
     <type fullname="WilsonImageUI" preserve="all" />
     <type fullname=".LevelSetting" preserve="nothing" serialized="true" />
